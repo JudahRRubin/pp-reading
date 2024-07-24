@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://JudahRRubin.github.io/pp-reading/aa/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "AA" ] },
+    "items": [
+      {
+        "id": "https://JudahRRubin.github.io/pp-reading/aa/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 1784.0,
+        "items": [
+          {
+            "id": "https://JudahRRubin.github.io/pp-reading/aa/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://JudahRRubin.github.io/pp-reading/aa/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://media.sas.upenn.edu/pennsound/groups/Segue-Zinc-Bar/Zinc-2016-2019/Young-Stephanie_Complete-Recording_Segue-ZINC_04-27-2019.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 1784.0
+                },
+                "target": "https://JudahRRubin.github.io/pp-reading/aa/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
